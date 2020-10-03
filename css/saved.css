@@ -1,0 +1,98 @@
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../img/hd4.jpg);
+  overflow: hidden;
+  height: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.heading h2 {
+  position: absolute;
+  color: white;
+  padding-top: 40px;
+  font-size: 90px;
+  text-transform: uppercase;
+}
+
+#about_me {
+  background-color: #cacaca;
+}
+
+.saved-body {
+  padding-bottom: 30px;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 35px;
+  background-color: #ebebeb;
+}
+
+.saved-body .title {
+  padding-bottom: 20px;
+}
+
+.saved-body p {
+  font-size: 20px;
+}
+
+.saved-body img {
+  border: 2px solid black;
+}
+
+.welDiv {
+  margin-bottom: 30px;
+}
+
+.delSavedBtn {
+  opacity: 0.5;
+  margin-right: 30px;
+  outline: none;
+  width: 40px;
+  height: 18px;
+  border-radius: 5px;
+  font-size: 10px;
+  color: #d80101;
+  -webkit-transform: translate(0px, -3px);
+          transform: translate(0px, -3px);
+  border: 1px solid #d80101;
+}
+
+.delSavedBtn:hover {
+  opacity: 1;
+  background-color: #cf1818;
+  color: white;
+  border: 1px solid #d80101;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+.itemDiv {
+  display: block;
+  margin: 0;
+}
+
+.itemDiv p {
+  display: inline;
+}
+
+.itemDiv a {
+  text-decoration: none;
+  color: #573800;
+}
+
+.itemDiv a:hover {
+  text-decoration: none;
+  color: #ee9b00;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+/*# sourceMappingURL=saved.css.map */

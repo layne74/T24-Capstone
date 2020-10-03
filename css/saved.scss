@@ -1,0 +1,87 @@
+//----------------HEADING------------------
+.heading {
+    display: flex;
+    background-image: url(../img/hd4.jpg);
+    overflow: hidden;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+
+    h2 {
+        position: absolute;
+        color: white;
+        padding-top: 40px;
+        font-size: 90px;
+        text-transform: uppercase;
+    }
+}
+
+//----------------MAIN------------------
+#about_me {
+    background-color: rgb(202, 202, 202);
+}
+
+.saved-body {
+    padding-bottom: 30px;
+    height: 100vh;
+    align-items: center;
+    padding-top: 35px;
+    background-color: rgb(235, 235, 235);
+    
+    .title {
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    img {
+        border: 2px solid black ;
+    }
+}
+
+.welDiv {
+    margin-bottom: 30px;
+}
+
+.delSavedBtn {
+    opacity: 0.5;
+    margin-right: 30px;
+    outline: none;
+    width: 40px;
+    height: 18px;
+    border-radius: 5px;
+    font-size: 10px;
+    color:  rgb(216, 1, 1);
+    transform: translate(0px,-3px);
+    border: 1px solid rgb(216, 1, 1);
+}
+
+.delSavedBtn:hover {
+    opacity: 1;
+    background-color: rgb(207, 24, 24);
+    color: white;
+    border: 1px solid rgb(216, 1, 1);
+    transition: 100ms;
+}
+
+.itemDiv {
+    display: block;
+    margin: 0;
+}
+
+.itemDiv p {
+    display: inline;
+}
+
+.itemDiv a {
+    text-decoration: none;
+    color: rgb(87, 56, 0);
+}
+.itemDiv a:hover {
+    text-decoration: none;
+    color: rgb(238, 155, 0);
+    transition: 100ms;
+}

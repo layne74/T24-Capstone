@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+h2 {
+  position: absolute;
+  color: white;
+  padding-top: 40px;
+  font-size: 90px;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+nav li {
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+nav a {
+  -webkit-transition: border-bottom 150ms;
+  transition: border-bottom 150ms;
+}
+
+nav a:hover {
+  margin-bottom: -3px;
+  border-bottom: 3px solid #ff8800;
+}
+
+.heroCont {
+  opacity: 0;
+}
+
+.rDriver {
+  opacity: 0;
+}
+
+.hero {
+  position: relative;
+  height: 93vh;
+  overflow: hidden;
+}
+
+.hero #me {
+  -webkit-transform: translate(40%, -208%);
+          transform: translate(40%, -208%);
+  position: absolute;
+  border-radius: 999px;
+  border: 1px solid white;
+}
+
+.hero-text {
+  text-align: left;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 50px;
+  position: absolute;
+  -webkit-transform: translate(0%, -200%);
+          transform: translate(0%, -200%);
+  border-left: 2px solid #ebebeb;
+}
+
+.hero-text h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.hero-text .rDriver {
+  font-size: larger;
+  color: #ff8800;
+}
+
+#foot {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 7vh;
+  background-color: #2e3130;
+  color: #888888;
+  padding: 0 50px;
+}
+
+footer ul {
+  list-style: none;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+footer a {
+  color: #888888;
+  padding: 0;
+  margin: 0;
+}
+
+footer #youtube:hover {
+  color: #d31111;
+}
+
+footer #twitter:hover {
+  color: #2ec4ff;
+}
+
+footer #instagram:hover {
+  color: #8e31c4;
+}
+
+.saveLikeBtn, .likeThisBtn, .saveThisBtn {
+  outline: none;
+  margin-left: 13px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.likeThisBtn {
+  border: 1px solid #cd5600;
+  background-color: #ff8800;
+}
+
+.likeThisBtn:hover {
+  background-color: #e16a00;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+.likeThisBtn:focus {
+  outline: none;
+}
+
+.saveThisBtn {
+  border: 2px solid #ff8800;
+  color: black;
+}
+
+.saveThisBtn:hover {
+  border: 2px solid #e16a00;
+  background-color: #e16a00;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+  color: white;
+  font-weight: bold;
+}
+
+.saveThisBtn:focus {
+  outline: none;
+}
+
+.botBut {
+  padding-bottom: 18px;
+}
+/*# sourceMappingURL=main.css.map */

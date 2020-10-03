@@ -1,0 +1,140 @@
+<!doctype html> 
+<html lang="en">
+<head>
+    <link rel="icon" href="../img/smallIcon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fun Racer | I want to race!</title>
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="../css/want-to-join.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type='text/javascript' src="../scripts/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body onload="myLoad()">
+    <a id="to_top"></a>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+       <div class="container-fluid">
+           <img alt="funracer logo" class="navbar-brand" style="height: 40px;" src="../img/icon3.png">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team.html">TEAM</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">WANT TO RACE?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./saved.html">SAVED</a>
+                    </li>
+               </ul>
+           </div>
+       </div>
+    </nav>
+    <!-- MAIN -->
+    <main>
+        <section id="contact">
+            <!-- HEAD -->
+            <div class="container-fluid">
+                <div class="heading row">
+                    <h2>WANNA RACE?</h2>                
+                </div>
+            </div>
+            <!-- BODY -->
+            <div class="container contact-body">
+                <div class="row">
+                    <div class="title col-md-12">
+                        <hr>
+                        <h3>CONTACT ME FOR RACING <span style="color:  rgb(255, 136, 0);">DOCUMENTS</span></h3>
+                        <hr>
+                    </div>
+                </div>
+                <!-- FORM -->
+                <div class="contact-form row">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Your Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputName3" class="col-sm-2 col-form-label">Your Full Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputName3" placeholder="Your name">
+                                </div>
+                            </div>
+                            <!-- RADIO BUTTONS -->
+                            <fieldset class="form-group">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <div class="pick form-check">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="gridRadios1">
+                                                I want to race.
+                                            </label>
+                                        </div>
+                                        <div class="pick form-check">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                            <label class="form-check-label" for="gridRadios2">
+                                                I am curious.
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="form-group row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-10">
+                                    <div class="Newsletter form-check">
+                                        <input id="newsletter" class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">
+                                            I want a Newsletter
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- SUBMIT BUTTON -->
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <button onclick="submitForm()" type="submit" class="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="fixed-bottom">
+        <div>
+            <div id="foot">
+                <p>2020 Fun Racer | Layne Hutchings</p>
+                <ul class="socials-links">
+                    <li><a href="https://www.facebook.com/hscracingteam" target="_blank" id="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCT6juVlntyv1FnM1i98duQA" target="_blank" id="youtube"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                    <li><a href="#" id="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                    <li><a href="#" id="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>       
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

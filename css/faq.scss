@@ -1,0 +1,169 @@
+$orange:  rgb(255, 136, 0);
+
+//----------------HEADING------------------
+.heading {
+    display: flex;
+    background-image: url(../img/hd1.jpg);
+    overflow: hidden;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+
+    h2 {
+        position: absolute;
+        color: white;
+        padding-top: 40px;
+        font-size: 90px;
+        text-transform: uppercase;
+
+    }
+}
+
+//----------------MAIN------------------
+#about_me {
+    background-color: rgb(202, 202, 202);
+}
+
+.about-body {
+    align-items: center;
+    padding-top: 35px;
+    background-color: rgb(235, 235, 235);
+    
+    .title {
+        padding-bottom: 20px;
+    }
+
+    p {
+    font-size: 20px;
+    }
+
+    img {
+        border: 2px solid black ;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        padding: 8px;
+        padding-left: 6px;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #dadada;
+      }
+
+    table {
+        margin-bottom: 20px;
+    }
+}
+
+.quotes {
+    padding-bottom: 30px;
+    padding-left: 39px;
+}
+
+.dropdown {
+  margin-bottom: 10px;
+  position: absolute;
+  margin-left: 15px;
+}
+
+.dropBtn {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(252, 142, 16);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.dropBtn:focus { 
+  outline: none; 
+} 
+
+.dropUl {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: gray; 
+  transform-origin: top;
+  z-index: 1;
+}
+
+.dropUl li {
+  list-style: none;
+}
+
+.dropUl li a {
+  display: block;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #262626;
+  color: #dadada;
+  border-bottom:1px solid rgb(160, 93, 17);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: 0.19s;
+}
+
+.dropUl li a:hover {
+  background-color: rgb(206, 121, 23);
+}
+
+.commentForm {
+  margin-left: 20px;
+
+  #displayName {
+    border: none;
+    background-color :transparent;
+    border-bottom: 1px solid black;
+  }
+
+  #comments {
+    padding: 2px;
+    background-color :transparent;
+    border-bottom: 1px solid black;
+  }
+}
+
+.commentForm label span{
+  color: rgb(252, 142, 16);
+  font-size: 25px;
+}
+
+.commentForm label{
+  
+  font-size: 25px;
+}
+
+.user {
+  vertical-align: middle;
+
+  p{
+    margin-left: 15px;
+  }
+}
+
+.commentBtn {
+  outline: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid $orange - 50;
+  background-color: $orange;
+}
+
+.commentBtn:hover {
+  background-color: $orange - 30;
+  color: white;
+  font-weight: bold;
+  transition: 100ms;
+}
+
+.commentBtn:focus {
+  outline: none;
+}

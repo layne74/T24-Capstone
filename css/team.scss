@@ -1,0 +1,89 @@
+//----------------HEADING------------------
+.heading {
+    display: flex;
+    background-image: url(../img/hd3.jpg);
+    overflow: hidden;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+
+    h2 {
+        position: absolute;
+        color: white;
+        padding-top: 40px;
+        font-size: 90px;
+        text-transform: uppercase;
+        opacity: 0;
+    }
+}
+
+//----------------MAIN------------------
+#team {
+    background-color: rgb(202, 202, 202);
+}
+
+.team-body {
+    align-items: center;
+    padding-top: 35px;
+    background-color: rgb(235, 235, 235);
+    
+    .title {
+        padding-bottom: 20px;
+    }
+
+    p {
+    font-size: 20px;
+    }
+
+    img {
+        border: 2px solid black ;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        padding: 8px;
+        padding-left: 6px;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #dadada;
+      }
+
+    table {
+        margin-bottom: 20px;
+    }
+}
+
+.meet {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+
+.teamBtnDiv {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.teamBtn {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(252, 142, 16);
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.teamBtn:hover {
+    background-color: rgb(253, 160, 54);
+    border: none;
+    font-size: 24px;
+}
+
+.teamBtn:focus {
+    outline: none;
+}
+

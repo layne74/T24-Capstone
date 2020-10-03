@@ -1,0 +1,190 @@
+<!doctype html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/smallIcon.png">
+    <title>Fun Racer | Team</title>
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="../css/team.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type='text/javascript' src="../scripts/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <a id="to_top"></a>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+       <div class="container-fluid">
+           <img alt="funracer logo" class="navbar-brand" style="height: 40px;" src="../img/icon3.png">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./team.html">TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./want-to-join.html">WANT TO RACE?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./saved.html">SAVED</a>
+                    </li>
+                </ul>
+           </div>
+       </div>
+    </nav>
+    <!-- MAIN -->
+    <main>
+        <section id="team">
+            <!-- HEADING -->
+            <div class="container-fluid">
+                <div class="heading row">
+                    <h2>TEAM</h2>                
+                </div>
+            </div>
+            <!-- MAIN -->
+            <div class="container team-body">
+                <div class="row">
+                    <div class="title col-md-12">
+                        <hr>
+                        <h3>MEET THE <span style="color: rgb(255, 136, 0);" >TEAM</span></h3>
+                        <hr>
+                    </div>
+                </div>
+                <!-- BODY -->
+                <div name="Meet the team." id="teamInfo">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>
+                                I race under the team name HSC Racing which stands for Hutchings Service Centre Racing. Since my father owns HSC, we incorperated it into our racing.
+                                We have a car and bike department. My father, Sandro and myself race cars in Classics.<br><br> Sandro has been racing for roughly 12 years. He started with a 
+                                Volkswagen Scirocco mk1 and built it up over time. That car lasted longer than it should as it saw quite a few crashes. Unfortunatly About a year ago the car was 
+                                written off, one last crash and boy, was it spectacular. Sandro was very lucky to walk away from it. Fortunatly he has another racing car that he has been using 
+                                since the accident. Trevor, my father, has been racing for 8 years. He too races a Scirocco mk1. That car has also seen numerous accidents, fortunatly, touch wood, 
+                                none bad enough to write it off. I have been racing for 4 years, I race a Volkswagen Golf Mk2. I wrote my first car off due to steering failure, and built another 
+                                one in about a week as I was in contention for overall podium.<br><br>  And then in the bike department, we have my brother(Braddon Hutchings),
+                                Abigail Bosson and my Nicholas Hutchings which is my cousin.<br><br> Braddon started racing about 3 years ago on short circuit with the cbr 150. He later converted 
+                                a Kawasaki Ninja 300 into a track bike. He is still building it up to spec at the moment and is hoping to be more competitive soon. Nicholas has been racing 
+                                short circuit on a cbr 150 for about 4 years. He has just recently moved to main circuit on a ninja 300 as well. Abigail has been racing for 6 years. She started on 
+                                little NSR 50 race bikes and then moved to the 150 as she got older.
+                            </p>
+                        </div>
+                    </div>
+                    <!-------------------------save/like this button--------------------->
+                    <div class="row">
+                        <button class="saveThisBtn" onclick="saveItem(this)"><i class="fa fa-floppy-o" aria-hidden="true"></i> Save This</button>
+                        <button class="likeThisBtn" onclick="likeItem(this)"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Like This</button>
+                    </div>
+                    <!--------------------------------------------------------------->
+                </div>    
+                <!-- COMPETITOR CARDS -->
+                <div class="teamBtnDiv">
+                    <button class="teamBtn">SHOW/HIDE THE RACING TEAM</button>
+                </div>
+                <div name="The racing team." id="racers" class="hmeet">
+                    <div class="row meet">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 16rem;">
+                                <img class="card-img-top" src="../img/abby.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p style="font-style: italic;">
+                                        Abigail Bosson
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 16rem;">
+                                <img class="card-img-top" src="../img/car_front.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p style="font-style: italic;">
+                                        Layne Hutchings
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 16rem; overflow: hidden;">
+                                <img class="card-img-bottom" src="../img/brad.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p style="font-style: italic;">
+                                        Braddon Hutchings
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row meet">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 16rem;">
+                                <img class="card-img-top" src="../img/trevor.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p style="font-style: italic;">
+                                        Trevor Hutchings
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 16rem;">
+                                <img class="card-img-top" src="../img/sandro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p style="font-style: italic;">
+                                        Sandro Biccari
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 16rem;">
+                                <img class="card-img-top" src="../img/nick.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p style="font-style: italic;">
+                                        Nicholas Hutchings
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------------------save/like this button--------------------->
+                    <div class="row botBut">
+                        <button class="saveThisBtn" onclick="saveItem(this)"><i class="fa fa-floppy-o" aria-hidden="true"></i> Save This</button>
+                        <button class="likeThisBtn" onclick="likeItem(this)"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Like This</button>
+                    </div>
+                    <!--------------------------------------------------------------->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <div id="foot">
+                <p>2020 Fun Racer | Layne Hutchings</p>
+
+                <a id="back-top" href="#to_top">Go to top</a>
+
+                <ul class="socials-links">
+                    <li><a href="https://www.facebook.com/hscracingteam" target="_blank" id="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCT6juVlntyv1FnM1i98duQA" target="_blank" id="youtube"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                    <li><a href="#" id="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                    <li><a href="#" id="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+$orange:  rgb(255, 136, 0);
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+h2 {
+    position: absolute;
+    color: white;
+    padding-top: 40px;
+    font-size: 90px;
+    text-transform: uppercase;
+    opacity: 0;
+}
+
+//----------------NAVIGATION------------------
+nav {
+    li {
+        padding-right: 10px;
+        font-size: 25px;
+    }
+
+    a {
+        transition: border-bottom 150ms;
+    }
+
+    a:hover {
+        margin-bottom: -3px;
+        border-bottom: 3px solid $orange;
+    }
+}
+
+//----------------HERO------------------
+
+.heroCont {
+    opacity: 0;
+}
+
+.rDriver {
+    opacity: 0;
+}
+
+.hero {
+    position: relative;
+    height: 93vh;
+    overflow: hidden;
+
+    #me {
+        transform: translate(40%, -208%);
+        position: absolute;
+        border-radius: 999px;
+        border: 1px solid white;
+
+    }
+}
+
+.hero-text {
+    text-align: left;
+    width: fit-content;
+    padding: 50px;
+    position: absolute;
+
+    transform: translate(0%, -200%);
+    border-left: 2px solid rgb(235, 235, 235);
+
+    h1 {
+        color: white;
+        font-size: 60px;
+    }
+
+    .rDriver {
+        font-size:larger; 
+        color: $orange;
+    }
+}
+
+//----------------FOOTER------------------
+
+#foot {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    vertical-align: middle;
+    align-items: center;
+    height: 7vh;
+    background-color: rgb(46, 49, 48);
+    color: rgb(136, 136, 136);
+    padding: 0 50px;
+
+    ul {
+        list-style: none;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    li {
+        display: inline-block;
+        padding-right: 15px;     
+    }
+
+    a {
+        color: rgb(136, 136, 136);
+        padding: 0;
+        margin: 0;
+
+    }
+
+    #youtube:hover {
+        color: rgb(211, 17, 17);
+    }
+
+    #twitter:hover {
+        color: rgb(46, 196, 255);
+    }
+
+    #instagram:hover {
+        color: rgb(142, 49, 196);
+    }
+}
+
+.saveLikeBtn {
+    outline: none;
+    margin-left: 13px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.likeThisBtn {
+    @extend .saveLikeBtn ;
+    border: 1px solid $orange - 50;
+    background-color: $orange;
+}
+
+.likeThisBtn:hover {
+    background-color: $orange - 30;
+    color: white;
+    font-weight: bold;
+    transition: 100ms;
+}
+
+.likeThisBtn:focus {
+    outline: none;
+}
+
+.saveThisBtn {
+    @extend .saveLikeBtn ;
+    border: 2px solid $orange;
+    color: black;
+}
+
+.saveThisBtn:hover {
+    border: 2px solid $orange - 30;
+    background-color: $orange - 30;
+    transition: 100ms;
+    color: white;
+    font-weight: bold;
+}
+
+.saveThisBtn:focus {
+    outline: none;
+}
+
+.botBut {
+    padding-bottom: 18px;
+}
