@@ -25,7 +25,7 @@ The site is based around my hobby which is racing.
 ## Usage
 1. As stated in above just open this <a target="_blank" href="https://layne74.github.io/T24-Capstone/index.html">**link**</a>.
 1. **The homepage will look like this:**
-[Imgur](https://i.imgur.com/4iSqfv3.png)
+<img src="https://imgur.com/4iSqfv3">
 
 ## Credits
 - <a href="https://github.com/layne74">Layne Hutchings</a>
