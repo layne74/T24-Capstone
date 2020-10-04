@@ -1,7 +1,7 @@
 # T24-Capstone and T25
 *L1Task 24 - Compulsory Task 1 & L1Task 25 - Compulsory Task 2*
 
-##Description
+## Description
 
 This website was created to test my knowledge regarding:
 
@@ -12,7 +12,7 @@ This website was created to test my knowledge regarding:
 
 The site is based around my hobby which is racing.
 
-##TABLE OF CONTENTS
+## TABLE OF CONTENTS
 - [Installation](#installation)
 - [Usage](#usage)
   1. How to use
