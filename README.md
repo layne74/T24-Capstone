@@ -23,7 +23,8 @@ The site is based around my hobby which is racing.
 1. Nothing to install, just open this <a target="_blank" href="https://layne74.github.io/T24-Capstone/index.html">**link**</a>.
 
 ## Usage
-1. As stated in above just open this <a target="_blank" href="https://layne74.github.io/T24-Capstone/index.html">**link**</a>.
+1. As stated in above just open this <a target="_blank" href="https://layne74.github.io/T24-Capstone/index.html">**link**</a>. Like this:
+<img src="https://i.imgur.com/nhn60CG.gifv">
 1. **The homepage will look like this:**
 <img src="https://i.imgur.com/4iSqfv3.png">
 
